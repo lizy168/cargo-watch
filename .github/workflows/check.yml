@@ -16,6 +16,7 @@ env:
 jobs:
   check-and-test:
     strategy:
+      fail-fast: false
       matrix:
         platform:
           - ubuntu
